@@ -1,16 +1,13 @@
-# spacex_gql
 
-A new Flutter application.
+## A Flutter + Graphql app with SpaceX Graphql API.
+ ![Flutter+Graphql SpaceX screens](https://firebasestorage.googleapis.com/v0/b/planet-flutter1.appspot.com/o/blog%2FTGoFQhabh5HuWGaO0II6%2F1571556985318_spaceXGraphqlScreens.png?alt=media&token=d4dda6cc-2f75-4932-815a-0968ce48d39d) 
 
-## Getting Started
+This a basic Flutter app that displays SpaceX launches and launch detail.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+For tutorial of this app visit - 
+https://planetflutter.com/blog/a-flutter-developers-guide-to-graphql-part-2-6
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To exlpore more see -
+https://api.spacex.land/graphql/
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
