@@ -59,7 +59,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   String getLaunches = """
     query fetchLaunches {
-      launches(limit: 10, find: {launch_year: "2018"}) {
+      launchesPast(limit: 10) {
         id
         links {
           flickr_images
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
             }
 
             if (result.data != null) {
-              final launchesData = result.data["launches"]
+              final launchesData = result.data["launchesPast"]
                   .map((i) => new LaunchObj.fromJson(i))
                   .toList();
               final List<LaunchObj> launches =
