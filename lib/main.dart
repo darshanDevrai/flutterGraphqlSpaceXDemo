@@ -63,10 +63,8 @@ class _MyHomePageState extends State<MyHomePage> {
         id
         links {
           flickr_images
-          mission_patch
         }
         mission_name
-        details
       }
     }
   """;
